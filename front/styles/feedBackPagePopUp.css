@@ -1,0 +1,57 @@
+.feedbackPagePopUp{
+    border-radius: 100%;
+    animation: popUpAnimation 2s infinite linear;
+    margin: 30%;
+}
+
+.feedbackPagePopUp > a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.feedbackPagePopUp > a > h1 {
+    font-size: 6rem;
+}
+.feedbackPagePopUp > a > p {
+    font-size: 1.5rem;
+}
+
+.feedbackPagePopUp > a > *{
+    text-align: center;
+    color: white;
+    animation: textPopUpColorTransition 8s infinite linear;
+}
+
+@keyframes popUpAnimation {
+    0%{
+        scale: 1.1;
+    }
+    50%{
+        scale: 1.05;
+    }
+    100%{
+        scale: 1.1;
+    }
+}
+@keyframes textPopUpColorTransition {
+    0%{
+        color: blue;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: green;
+    }
+    75%{
+        color: purple;
+    }
+    100%{
+        color: blue;
+    }
+}

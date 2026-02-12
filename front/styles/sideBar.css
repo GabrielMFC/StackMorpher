@@ -1,0 +1,16 @@
+.sideBarContainer{
+    width: 30dvw;
+    max-width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #151B23;
+    padding-top: 10%;
+}
+
+.sideBaOption{
+    width: 80%;
+    padding: 4%;
+}
